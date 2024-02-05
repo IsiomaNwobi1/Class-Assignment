@@ -14,12 +14,12 @@ public class Testing {
         int score = 0;
         int numberofquestions = 5;
 
-        for (int i = 0; i <=4; i++) {
+        for (int i = 1; i <=5; i++) {
             int num1 = random.nextInt(10) + 1;
             int num2 = random.nextInt(10) + 1;
             int math = random.nextInt(5);
             String operator = null;
-            int result = 1;
+            int result = 0;
             switch (math) {
                 case 1:
                     result = num1 + num2;
@@ -48,7 +48,7 @@ public class Testing {
 
 
         }
-        System.out.println("Your final score is:" + score + "out of" + numberofquestions);
+        System.out.println("Your final score is:" + score + " " + "outof" + " " + numberofquestions);
     }
 }
 
