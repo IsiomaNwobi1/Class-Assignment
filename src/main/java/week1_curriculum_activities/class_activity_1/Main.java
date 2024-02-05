@@ -8,8 +8,8 @@ public class Main {
         System.out.println("Name: " + obj1.name);
         System.out.println("Gender: " + obj1.gender);
         System.out.println("Age: " + obj1.age);
-        System.out.println("Name: " + obj1.name);
-        System.out.println("Gender: " + obj1.gender);
-        System.out.println("Age: " + obj1.age);
+        System.out.println("Name: " + obj2.name);
+        System.out.println("Gender: " + obj2.gender);
+        System.out.println("Age: " + obj2.age);
     }
 }
