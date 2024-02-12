@@ -1,0 +1,6 @@
+StudentName,ID,Gender,Course,CourseScore,PayTuition,Offence
+Emma ,So276,male,Java,70,TRUE,FALSE
+Isioma,So234,female,CSS,70,TRUE,TRUE
+Josh,So672,male,Java,60,FALSE,TRUE
+Stella,So206,female,Node,,,
+Ciel,So760,female,Node,,,
