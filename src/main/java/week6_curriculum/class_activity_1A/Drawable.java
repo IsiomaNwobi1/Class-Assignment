@@ -1,6 +1,6 @@
 package week6_curriculum.class_activity_1A;
 
-public interface Drawable_WithoutLambdaExpression {
+public interface Drawable {
 
     abstract void draw ();
 

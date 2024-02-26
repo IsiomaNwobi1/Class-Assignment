@@ -1,6 +1,6 @@
 package week6_curriculum.class_activity_1A;
 
-public class NotLambdaExpression {
+public class LambdaExpression {
     public static void main(String[] args) {
 
         int width = 30;
