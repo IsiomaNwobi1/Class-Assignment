@@ -8,9 +8,9 @@ public class List1Example {
         List<String> list = new ArrayList<>();
 
         list.add("Mango");
-        list.add("WaterMelon");
-        list.add("Orange");
+        list.add("Kiwi");
         list.add("Sugarcane");
+        list.add("Orange");
         list.add("Cherry");
 
         for (String lt : list) {

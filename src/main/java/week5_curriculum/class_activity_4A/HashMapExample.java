@@ -12,14 +12,14 @@ public class HashMapExample {
         fruits.put(4, "Orange");
         fruits.put(5, "Kiwi");
 
-        //fruits.remove(2, "Apple");
-        //fruits.replace(2, "Date");
+        //fruits.remove(2, "Apple"); //to remove
+        //fruits.replace(2, "Date"); //to replace
 
-        //for(Map.Entry f : fruits.entrySet()) {
-            //System.out.println(f.getKey() + " " + f.getValue());
-        //}
+        for(Map.Entry f : fruits.entrySet()) {
+            System.out.println(f.getKey() + " " + f.getValue());
+        }
 
-        System.out.println(fruits.containsKey(6));
+        //System.out.println(fruits.containsKey(6)); //to check if an element is on the list
 
     }
 }

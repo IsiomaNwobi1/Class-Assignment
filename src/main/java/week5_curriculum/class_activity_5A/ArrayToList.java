@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ArrayToList {
     public static void main(String[] args) {
-        String[] stack = {"Java", "DotNet", "Node"};
+        String[] stack = {"Node", "DotNet", "Java"};
 
         System.out.println("Arrays = " + Arrays.toString(stack));
 
