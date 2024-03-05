@@ -4,11 +4,11 @@ public class LambdaExpression_MultipleParameters {
 
     public static void main(String[] args) {
 
-        YourName say = (num, nums) -> {
+        YourName s = (num, nums) -> {
             return num + nums;
 
         };
-        System.out.println(say.say(60,01));
+        System.out.println(s.say(60,01));
     }
 }
 
